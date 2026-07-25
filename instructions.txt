@@ -1,0 +1,561 @@
+Act as an award-winning UI/UX Designer, Frontend Architect, Motion Designer, and Creative Director.
+
+Redesign ONLY the main website screens.
+
+DO NOT modify:
+- Printable Resume
+- Resume Modal
+- PDF Layout
+- Download Resume section
+
+Those must remain exactly as they are.
+
+The redesign should completely transform the landing website into a premium personal portfolio that looks like it belongs to a Senior Java Backend Engineer and Technical Lead working in Banking and FinTech.
+
+The website should feel comparable to portfolios featured on Awwwards, Dribbble, Behance, and premium developer portfolios.
+
+The design philosophy should combine:
+
+• Apple simplicity
+• Stripe elegance
+• Linear animations
+• Vercel clean UI
+• Microsoft Fluent Design
+• Modern Glassmorphism
+• Subtle Neumorphism
+• Enterprise Banking professionalism
+
+Never make it look childish or overly colorful.
+
+====================================
+GENERAL DESIGN
+====================================
+
+Create an immersive scrolling experience.
+
+Use section-based storytelling.
+
+Every section should animate into view.
+
+Scrolling should feel smooth and premium.
+
+Use large spacing.
+
+Rounded cards.
+
+Soft shadows.
+
+Floating glass cards.
+
+Blur backgrounds.
+
+Gradient borders.
+
+Animated highlights.
+
+Mouse parallax.
+
+Hover lift animations.
+
+Smooth fade.
+
+Slide animations.
+
+Scale animations.
+
+Floating particles.
+
+Blob animations.
+
+Glow effects.
+
+Noise texture.
+
+Glass overlays.
+
+CSS only where possible.
+
+Use GSAP only if absolutely required.
+
+Maintain excellent performance.
+
+90+ Lighthouse score.
+
+====================================
+BACKGROUND DESIGN
+====================================
+
+Avoid plain white backgrounds.
+
+Create multiple layered backgrounds.
+
+Examples:
+
+Section 1
+Dark navy gradient
+Animated mesh gradient
+Floating blurred circles
+Small glowing particles
+Grid overlay
+Light noise texture
+
+Section 2
+Glass white background
+Large abstract banking illustration
+Transparent geometric shapes
+
+Section 3
+Gradient background with diagonal wave separator
+
+Section 4
+Floating cards over blurred background
+
+Alternate dark/light sections.
+
+Each section should feel unique.
+
+====================================
+HERO SECTION
+====================================
+
+Create a stunning hero section.
+
+Full screen height.
+
+Background image should represent:
+
+Cloud Computing
+
+Microservices
+
+Backend Engineering
+
+Enterprise Systems
+
+Digital Banking
+
+Distributed Architecture
+
+Use a dark overlay.
+
+Text should remain perfectly readable.
+
+Include subtle animated gradient overlay.
+
+Add floating technology icons:
+
+Java
+
+Spring Boot
+
+Docker
+
+Kubernetes
+
+Azure
+
+PostgreSQL
+
+Microservices
+
+Kafka
+
+Quarkus
+
+Redis
+
+Icons should float slowly.
+
+Parallax effect.
+
+Animated connecting lines.
+
+Profile picture should appear inside a premium glass circular frame.
+
+Add animated glowing ring around profile picture.
+
+Name should animate letter-by-letter.
+
+Subtitle should typewriter animate.
+
+Headline:
+
+Senior Java Backend Engineer
+Technical Lead
+Microservices Architect
+
+Cycle smoothly.
+
+CTA buttons:
+
+Download Resume
+
+View Projects
+
+Contact Me
+
+Buttons should have magnetic hover effect.
+
+====================================
+ABOUT SECTION
+====================================
+
+Split layout.
+
+Left side:
+Large image/illustration.
+
+Right side:
+Professional introduction.
+
+Animated counters:
+
+8+ Years Experience
+
+20+ Enterprise APIs
+
+5+ Banking Clients
+
+Millions of Financial Records
+
+Animated when visible.
+
+====================================
+SKILLS SECTION
+====================================
+
+Instead of plain lists...
+
+Create beautiful technology cards.
+
+Each technology has:
+
+Logo
+
+Name
+
+Years of experience
+
+Animated progress ring
+
+Hover animation
+
+Glow
+
+Tilt effect
+
+Organize into:
+
+Backend
+
+Frontend
+
+Cloud
+
+DevOps
+
+Database
+
+Architecture
+
+Tools
+
+====================================
+TIMELINE
+====================================
+
+Replace plain experience cards.
+
+Create premium vertical timeline.
+
+Company logo.
+
+Duration.
+
+Role.
+
+Client.
+
+Animated line.
+
+Scroll reveal.
+
+Cards expand on hover.
+
+====================================
+PROJECTS
+====================================
+
+Create modern project showcase cards.
+
+Each project should include:
+
+Large banner image
+
+Technology chips
+
+Architecture tags
+
+Business domain
+
+Challenges
+
+Responsibilities
+
+Achievements
+
+Impact
+
+Hover animation
+
+Glass overlay
+
+Animated gradient border
+
+Show architecture icons.
+
+Use banking-themed illustrations.
+
+====================================
+ACHIEVEMENTS
+====================================
+
+Display achievements as premium metric cards.
+
+🏆 8+ Years
+
+🏦 5+ Banking Clients
+
+⚡ 20+ REST APIs
+
+🌏 International Projects
+
+💰 FinTech Experience
+
+Cards animate upward.
+
+Counter animation.
+
+Glow border.
+
+====================================
+TECH STACK
+====================================
+
+Create an infinite scrolling logo marquee.
+
+Java
+
+Spring Boot
+
+Quarkus
+
+PostgreSQL
+
+Docker
+
+Kubernetes
+
+Azure
+
+Git
+
+Angular
+
+Ionic
+
+Redis
+
+JWT
+
+OAuth
+
+Kafka
+
+MinIO
+
+Each logo grayscale.
+
+Color on hover.
+
+====================================
+CERTIFICATIONS
+====================================
+
+Modern horizontal cards.
+
+Hover elevation.
+
+Animated border.
+
+====================================
+CONTACT
+====================================
+
+Premium contact section.
+
+Glass contact card.
+
+Large background illustration.
+
+Floating gradient blobs.
+
+Contact icons animate.
+
+Modern social buttons.
+
+Hover glow.
+
+Animated send button.
+
+====================================
+FOOTER
+====================================
+
+Minimal.
+
+Dark.
+
+Animated divider.
+
+Copyright.
+
+Quick links.
+
+Back-to-top floating button.
+
+====================================
+ANIMATIONS
+====================================
+
+Use:
+
+Intersection Observer
+
+CSS keyframes
+
+Framer Motion style animations
+
+Scroll reveal
+
+Fade
+
+Slide
+
+Zoom
+
+Parallax
+
+Floating
+
+Morphing blobs
+
+Animated gradients
+
+Typing effect
+
+Number counter
+
+Ripple hover
+
+Magnetic buttons
+
+Glass reflections
+
+Mouse tracking spotlight
+
+====================================
+TYPOGRAPHY
+====================================
+
+Use premium fonts:
+
+Poppins
+
+Inter
+
+Manrope
+
+Space Grotesk
+
+Large headings.
+
+Readable spacing.
+
+Elegant hierarchy.
+
+====================================
+COLOR PALETTE
+====================================
+
+Primary:
+#2563EB
+
+Secondary:
+#1E3A8A
+
+Accent:
+#38BDF8
+
+Background:
+#F8FAFC
+
+Dark:
+#0F172A
+
+Gradient:
+Blue → Cyan → Indigo
+
+====================================
+RESPONSIVENESS
+====================================
+
+Perfect mobile experience.
+
+Tablet optimized.
+
+Desktop premium.
+
+Smooth transitions on every device.
+
+====================================
+SEO
+====================================
+
+Semantic HTML.
+
+OpenGraph.
+
+Twitter Cards.
+
+Schema.org Person.
+
+Fast loading.
+
+Lazy loading.
+
+Image optimization.
+
+Accessibility.
+
+====================================
+IMPORTANT
+====================================
+
+Do NOT redesign:
+
+Resume Modal
+
+Printable Resume
+
+Resume PDF
+
+Download Resume functionality
+
+Only redesign the main website.
+
+Keep all existing content and routing.
+
+Only improve the UI/UX, layout, animations, and visual storytelling.
+
+The final result should look like a premium Fortune 500 Senior Java Backend Engineer portfolio that immediately impresses recruiters within the first five seconds.

@@ -3,74 +3,989 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Profile | Suryakant Arora</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+  <meta name="description" content="Surya Kant Kumar — Java Technical Lead with 8+ years in Java, Spring Boot, Quarkus, microservices, distributed systems, and banking solutions.">
+  <meta name="app-version" content="2026.07.16.6">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="color-scheme" content="light">
+  <title>Surya Kant Kumar — Java Technical Lead</title>
+  <link rel="canonical" href="https://suryakantarora.com/">
 
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+  <!-- Social sharing -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Surya Kant Kumar">
+  <meta property="og:title" content="Surya Kant Kumar — Java Technical Lead">
+  <meta property="og:description" content="Java Technical Lead and Senior Backend Engineer with 8+ years building scalable banking platforms, high-volume REST APIs, and cloud-ready microservices.">
+  <meta property="og:url" content="https://suryakantarora.com/">
+  <meta property="og:image" content="https://suryakantarora.com/photo.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Surya Kant Kumar — Java Technical Lead">
+  <meta name="twitter:description" content="Java Technical Lead and Senior Backend Engineer with 8+ years building scalable banking platforms, high-volume REST APIs, and cloud-ready microservices.">
+  <meta name="twitter:image" content="https://suryakantarora.com/photo.jpg">
 
-    h1 {
-      margin: 0;
-    }
+  <!-- Inline favicon: avoids a separate request and the default /favicon.ico 404 -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%2338bdf8' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 
-    section {
-      padding: 20px;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="profile.css?v=2026.07.16.6">
+  <link rel="preload" as="image" href="photo.jpg" fetchpriority="high">
 
-    h2 {
-      margin-top: 0;
-    }
-
-    p {
-      margin-bottom: 20px;
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Surya Kant Kumar",
+    "jobTitle": "Java Technical Lead",
+    "url": "https://suryakantarora.com/",
+    "image": "https://suryakantarora.com/photo.jpg",
+    "email": "mailto:hellosuryakant@gmail.com",
+    "telephone": "+91-80837-05398",
+    "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressCountry": "IN" },
+    "sameAs": [
+      "https://www.linkedin.com/in/suryakantarora",
+      "https://github.com/suryakantarora"
+    ],
+    "worksFor": { "@type": "Organization", "name": "Wipro Technologies" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "VelTech University, Chennai" },
+      { "@type": "CollegeOrUniversity", "name": "Magadh University, Bodh Gaya" }
+    ],
+    "knowsAbout": ["Java", "Spring Boot", "Quarkus", "Microservices", "REST APIs", "PostgreSQL", "Azure", "Distributed Systems", "Banking Technology"]
+  }
+  </script>
 </head>
 <body>
-  <header>
-    <h1>My Profile</h1>
+
+  <noscript>
+    <style>
+      /* Without JS the IntersectionObserver never fires, so un-hide revealed content. */
+      .reveal, .reveal-child > * { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#surya" class="nav-logo">
+        <span class="nav-logo-mark">SK</span>
+        <span class="nav-logo-text">Surya<span>.</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><button type="button" class="nav-resume-btn resume-open-btn">Résumé</button></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="surya">
+    <div class="hero-canvas" aria-hidden="true">
+      <div class="mesh mesh-1"></div>
+      <div class="mesh mesh-2"></div>
+      <div class="mesh mesh-3"></div>
+      <div class="hero-grid"></div>
+      <div class="particles">
+        <span style="--x:8%;  --d:0s;   --t:14s"></span>
+        <span style="--x:19%; --d:2.4s; --t:17s"></span>
+        <span style="--x:31%; --d:5.1s; --t:12s"></span>
+        <span style="--x:44%; --d:1.2s; --t:19s"></span>
+        <span style="--x:58%; --d:3.7s; --t:15s"></span>
+        <span style="--x:69%; --d:6.3s; --t:13s"></span>
+        <span style="--x:81%; --d:0.8s; --t:18s"></span>
+        <span style="--x:92%; --d:4.5s; --t:16s"></span>
+      </div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="hero-eyebrow reveal">
+          <span class="pulse-dot"></span> Available for senior backend &amp; lead roles
+        </p>
+
+        <h1 class="hero-name" data-letters="Surya Kant Kumar">Surya Kant Kumar</h1>
+
+        <p class="hero-roles" aria-label="Senior Java Backend Engineer, Technical Lead, Microservices Architect">
+          <span class="type-line" id="typeLine" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span>
+        </p>
+
+        <p class="hero-tagline reveal">
+          I build the systems banks run on — high-volume settlement and reconciliation
+          platforms, fault-tolerant microservices, and REST APIs that move millions of
+          financial records without losing a single one.
+        </p>
+
+        <div class="hero-actions reveal">
+          <button type="button" class="cta cta-primary magnetic resume-open-btn">
+            <span>Download Résumé</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/>
+            </svg>
+          </button>
+          <a href="#portfolio" class="cta cta-ghost magnetic">
+            <span>View Projects</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#contact" class="cta cta-ghost magnetic">
+            <span>Contact Me</span>
+          </a>
+        </div>
+
+        <dl class="hero-metrics reveal">
+          <div><dt data-count="8" data-suffix="+">0</dt><dd>Years building backends</dd></div>
+          <div><dt data-count="20" data-suffix="+">0</dt><dd>Enterprise APIs shipped</dd></div>
+          <div><dt data-count="5" data-suffix="+">0</dt><dd>Banking clients delivered</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit-field" id="orbitField">
+          <svg class="orbit-lines" viewBox="0 0 420 420" fill="none" aria-hidden="true">
+            <circle cx="210" cy="210" r="150" stroke="url(#og)" stroke-width="1" stroke-dasharray="4 8"/>
+            <circle cx="210" cy="210" r="200" stroke="url(#og)" stroke-width="1" stroke-dasharray="2 10"/>
+            <path d="M210 60 L330 150 M210 60 L90 150 M330 270 L210 360 M90 270 L210 360" stroke="url(#og)" stroke-width="1" class="link-line"/>
+            <defs>
+              <linearGradient id="og" x1="0" y1="0" x2="420" y2="420">
+                <stop offset="0" stop-color="#38bdf8" stop-opacity=".65"/>
+                <stop offset="1" stop-color="#2563eb" stop-opacity=".05"/>
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div class="avatar-frame">
+            <span class="avatar-ring"></span>
+            <span class="avatar-ring avatar-ring-2"></span>
+            <img src="photo.jpg" alt="Surya Kant Kumar" width="398" height="512"
+                 fetchpriority="high" decoding="async" class="avatar-img">
+          </div>
+
+          <span class="tech-chip" style="--tx:-46%; --ty:-58%; --dep:1.6"><b>Java</b></span>
+          <span class="tech-chip" style="--tx:44%;  --ty:-46%; --dep:1.2"><b>Spring</b></span>
+          <span class="tech-chip" style="--tx:-62%; --ty:6%;   --dep:2.0"><b>Quarkus</b></span>
+          <span class="tech-chip" style="--tx:60%;  --ty:16%;  --dep:1.4"><b>Kafka</b></span>
+          <span class="tech-chip" style="--tx:-40%; --ty:58%;  --dep:1.1"><b>Docker</b></span>
+          <span class="tech-chip" style="--tx:36%;  --ty:62%;  --dep:1.8"><b>K8s</b></span>
+          <span class="tech-chip" style="--tx:-8%;  --ty:-74%; --dep:1.3"><b>Azure</b></span>
+          <span class="tech-chip" style="--tx:6%;   --ty:78%;  --dep:1.5"><b>Postgres</b></span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll to content">
+      <span class="scroll-hint-track"><span class="scroll-hint-dot"></span></span>
+      <span class="scroll-hint-label">Scroll</span>
+    </a>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Hello, I'm Suryakant Arora. I am a Software Engineer with five years of experience. I am currently working Cashlink Global Systems Pvt, Ltd.
-    </p>
+  <main id="main">
 
-    <h2>Skills</h2>
-    <ul>
-      <li>Angular</li>
-      <li>Ionic</li>
-      <li>Cordova/Capacitor</li>
-      <li>Java, Spring Boot</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+    <!-- ── About ─────────────────────────────────────────────────────── -->
+    <section class="section section-light" id="about">
+      <div class="bg-layer bg-layer-light" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> About</span>
+          <h2 class="section-title">Java-first engineering for platforms that cannot fail</h2>
+        </div>
 
-    <h2>Contact</h2>
-    <p>Email: hellosuryakant@gmail.com</p>
-    <p>Phone: 8083705398</p>
-  </section>
+        <div class="about-layout">
+          <div class="about-visual reveal">
+            <div class="arch-card tilt">
+              <div class="arch-glow"></div>
+              <p class="arch-title">Settlement pipeline</p>
+              <div class="arch-flow">
+                <div class="arch-node"><span class="arch-dot"></span>File ingestion<em>SFTP · S3 · MinIO</em></div>
+                <div class="arch-node"><span class="arch-dot"></span>Validation<em>Schema · checksum</em></div>
+                <div class="arch-node is-hot"><span class="arch-dot"></span>Reconciliation<em>Multithreaded engine</em></div>
+                <div class="arch-node"><span class="arch-dot"></span>Settlement<em>Event-driven</em></div>
+                <div class="arch-node"><span class="arch-dot"></span>Audit &amp; recovery<em>Retry · audit log</em></div>
+              </div>
+              <div class="arch-foot">
+                <span>Quarkus</span><span>PostgreSQL</span><span>Azure AKS</span>
+              </div>
+            </div>
+          </div>
 
-  <footer>
-    &copy; 2023 Suryakant Arora
+          <div class="about-body reveal">
+            <p>
+              Java Technical Lead and Senior Backend Engineer with 8+ years of experience designing,
+              developing, and delivering scalable enterprise platforms using Java, Spring Boot, Quarkus,
+              REST APIs, and microservices architecture. Proven expertise in backend system design,
+              production-grade code reviews, performance optimization, and high-volume financial workflows.
+            </p>
+            <p>
+              Delivered solutions for 5+ banking and enterprise clients, including file settlement,
+              reconciliation, payment gateway, mobile banking, and field service platforms. Experienced
+              in end-to-end delivery, Azure DevOps, CI/CD automation, stakeholder communication, and
+              mentoring engineers while staying hands-on with Java backend implementation.
+            </p>
+
+            <div class="counter-grid">
+              <div class="counter-card"><span class="counter" data-count="8" data-suffix="+">0</span><small>Years Experience</small></div>
+              <div class="counter-card"><span class="counter" data-count="20" data-suffix="+">0</span><small>Enterprise APIs</small></div>
+              <div class="counter-card"><span class="counter" data-count="5" data-suffix="+">0</span><small>Banking Clients</small></div>
+              <div class="counter-card"><span class="counter" data-count="1" data-prefix="" data-suffix="M+">0</span><small>Financial Records</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Skills ────────────────────────────────────────────────────── -->
+    <section class="section section-dark" id="skills">
+      <div class="bg-layer bg-layer-dark" aria-hidden="true">
+        <div class="mesh mesh-4"></div>
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> Capabilities</span>
+          <h2 class="section-title">The stack behind the systems</h2>
+          <p class="section-sub">Depth measured from the roles and platforms on this page — backend first, cloud-ready, banking-hardened.</p>
+        </div>
+
+        <div class="skill-grid reveal-child">
+          <article class="skill-card tilt" style="--ring:92; --hue:#38bdf8">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:92"><b>8<i>y</i></b></span>
+              <div><h3>Java</h3><p>Backend</p></div>
+            </div>
+            <p class="skill-note">Core language across every role since 2018 — concurrency, JVM tuning, clean architecture.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:90; --hue:#6ee7b7">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:90"><b>8<i>y</i></b></span>
+              <div><h3>Spring Boot</h3><p>Backend</p></div>
+            </div>
+            <p class="skill-note">REST services, Spring Security, JWT, JPA/Hibernate across banking and SaaS platforms.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:62; --hue:#a78bfa">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:62"><b>2<i>y</i></b></span>
+              <div><h3>Quarkus</h3><p>Backend</p></div>
+            </div>
+            <p class="skill-note">Settlement microservices and the cron-driven distributed job scheduler at Standard Chartered.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:88; --hue:#38bdf8">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:88"><b>8<i>y</i></b></span>
+              <div><h3>Microservices</h3><p>Architecture</p></div>
+            </div>
+            <p class="skill-note">Event-driven workflows, fault tolerance, retry and recovery, distributed systems design.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:74; --hue:#60a5fa">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:74"><b>3<i>y</i></b></span>
+              <div><h3>PostgreSQL</h3><p>Database</p></div>
+            </div>
+            <p class="skill-note">Query optimization and transactional integrity for reconciliation and field-service data.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:80; --hue:#f0abfc">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:80"><b>5<i>y</i></b></span>
+              <div><h3>Oracle</h3><p>Database</p></div>
+            </div>
+            <p class="skill-note">Core banking integration, transaction processing and reporting across four bank rollouts.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:70; --hue:#38bdf8">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:70"><b>3<i>y</i></b></span>
+              <div><h3>Azure &amp; AKS</h3><p>Cloud</p></div>
+            </div>
+            <p class="skill-note">Deployment readiness on Azure Kubernetes Service with Azure DevOps pipelines.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:68; --hue:#7dd3fc">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:68"><b>3<i>y</i></b></span>
+              <div><h3>Docker &amp; K8s</h3><p>DevOps</p></div>
+            </div>
+            <p class="skill-note">Containerized services, CI/CD automation and release orchestration.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:64; --hue:#fca5a5">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:64"><b>4<i>y</i></b></span>
+              <div><h3>Redis</h3><p>Database</p></div>
+            </div>
+            <p class="skill-note">Session and token lookup backing mobile-banking authentication flows.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:60; --hue:#fcd34d">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:60"><b>2<i>y</i></b></span>
+              <div><h3>MinIO &amp; S3</h3><p>Storage</p></div>
+            </div>
+            <p class="skill-note">Secure object storage for high-volume financial file processing.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:56; --hue:#f87171">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:56"><b>2<i>y</i></b></span>
+              <div><h3>Angular &amp; Ionic</h3><p>Frontend</p></div>
+            </div>
+            <p class="skill-note">Supporting web and mobile layers over Java REST services.</p>
+          </article>
+
+          <article class="skill-card tilt" style="--ring:86; --hue:#94a3b8">
+            <div class="skill-top">
+              <span class="skill-ring" style="--pct:86"><b>8<i>y</i></b></span>
+              <div><h3>Git &amp; DevOps</h3><p>Tools</p></div>
+            </div>
+            <p class="skill-note">Azure DevOps, branching strategy, code review and release planning.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Experience ────────────────────────────────────────────────── -->
+    <section class="section section-light" id="experience">
+      <div class="bg-layer bg-layer-light" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> Experience</span>
+          <h2 class="section-title">Eight years, three teams, one discipline</h2>
+        </div>
+
+        <div class="tl">
+          <span class="tl-rail" aria-hidden="true"><span class="tl-rail-fill" id="tlFill"></span></span>
+
+          <article class="tl-item reveal">
+            <span class="tl-node is-current" aria-hidden="true"></span>
+            <div class="tl-card tilt">
+              <div class="tl-head">
+                <span class="tl-logo">W</span>
+                <div class="tl-id">
+                  <h3>Wipro Technologies</h3>
+                  <p class="tl-role">Technical Lead</p>
+                  <p class="tl-client">Client · Standard Chartered Bank</p>
+                </div>
+                <span class="tl-date"><i class="live-dot"></i>Oct 2024 — Present</span>
+              </div>
+              <p class="tl-desc">
+                Leading Java backend development on a high-performance File Settlement &amp;
+                Reconciliation platform. Architecting Quarkus and Spring Boot microservices on
+                Azure with PostgreSQL, S3, and MinIO integration.
+              </p>
+              <ul class="tl-points">
+                <li>Architected Java microservices for file ingestion, validation, reconciliation, and settlement workflows.</li>
+                <li>Implemented multithreaded processing for millions of financial records and high-volume files.</li>
+                <li>Designed fault-tolerant recovery, event-driven workflows, and secure storage integration.</li>
+                <li>Led design discussions, performed code reviews, mentored engineers, and drove release planning.</li>
+                <li>Automated CI/CD pipelines with Azure DevOps and supported AKS deployment readiness.</li>
+              </ul>
+              <div class="chips">
+                <span>Java</span><span>Quarkus</span><span>Spring Boot</span><span>PostgreSQL</span><span>Azure</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal">
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-card tilt">
+              <div class="tl-head">
+                <span class="tl-logo">K</span>
+                <div class="tl-id">
+                  <h3>Key Application</h3>
+                  <p class="tl-role">Sr. Software Engineer</p>
+                  <p class="tl-client">Product · Service Geeni</p>
+                </div>
+                <span class="tl-date">Sep 2023 — Sep 2024</span>
+              </div>
+              <p class="tl-desc">
+                Backend-focused development on a Field Service Management platform. Built
+                enterprise REST APIs with Spring Boot, PostgreSQL integration, and supporting
+                Angular/Ionic interfaces.
+              </p>
+              <ul class="tl-points">
+                <li>Developed Java REST APIs for customer, job scheduling, invoicing, and reporting modules.</li>
+                <li>Improved backend reliability for field service workflows used by distributed operations teams.</li>
+                <li>Collaborated across backend, web, and mobile layers while keeping Java services as the core delivery area.</li>
+              </ul>
+              <div class="chips">
+                <span>Java</span><span>Spring Boot</span><span>REST APIs</span><span>PostgreSQL</span><span>Angular</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal">
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-card tilt">
+              <div class="tl-head">
+                <span class="tl-logo">C</span>
+                <div class="tl-id">
+                  <h3>CashLink Global System</h3>
+                  <p class="tl-role">Product Lead</p>
+                  <p class="tl-client">Clients · IndoChina Bank · BIC Bank · KokKok Pay · Azizi Bank</p>
+                </div>
+                <span class="tl-date">Apr 2018 — Aug 2023</span>
+              </div>
+              <p class="tl-desc">
+                Led Java backend and product delivery for banking, wallet, and payment gateway
+                platforms across Southeast Asia and the Middle East, including 3 years of onsite
+                deployment support in Vientiane, Laos.
+              </p>
+              <ul class="tl-points">
+                <li>Delivered secure backend services for mobile banking, wallet, merchant, and payment workflows.</li>
+                <li>Integrated banking systems, OTP validation, transaction processing, and admin reporting modules.</li>
+                <li>Led product delivery, requirement analysis, UAT support, and release coordination for 4+ banking clients.</li>
+              </ul>
+              <div class="chips">
+                <span>Java</span><span>Spring Boot</span><span>REST APIs</span><span>Oracle</span><span>Redis</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Projects ──────────────────────────────────────────────────── -->
+    <section class="section section-dark" id="portfolio">
+      <div class="bg-layer bg-layer-dark" aria-hidden="true">
+        <div class="mesh mesh-5"></div>
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> Selected Work</span>
+          <h2 class="section-title">Platforms in production</h2>
+          <p class="section-sub">Four systems that moved real money, real files, and real field operations.</p>
+        </div>
+
+        <div class="proj-grid reveal-child">
+
+          <article class="proj-card tilt" style="--p1:#3b82f6; --p2:#38bdf8">
+            <div class="proj-banner">
+              <span class="proj-mark">FS</span>
+              <svg class="proj-pattern" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+                <path d="M10 90h30l12-28 14 46 13-60 12 42h86" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="proj-domain">Banking · FinTech</span>
+            </div>
+            <div class="proj-body">
+              <h3>File Settlement &amp; Reconciliation</h3>
+              <dl class="proj-facts">
+                <div><dt>Challenge</dt><dd>High-volume financial files needed reliable ingestion, validation, settlement and reconciliation with zero record loss.</dd></div>
+                <div><dt>Responsibility</dt><dd>Architected the Java, Quarkus and Spring Boot microservices; led design reviews and release planning.</dd></div>
+                <div><dt>Impact</dt><dd>Processes millions of records with automated recovery and sharply reduced manual intervention.</dd></div>
+              </dl>
+              <div class="arch-tags"><span>Event-driven</span><span>Multithreaded</span><span>Fault-tolerant</span></div>
+              <div class="chips"><span>Java</span><span>Quarkus</span><span>Spring Boot</span><span>PostgreSQL</span><span>Azure</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" style="--p1:#10b981; --p2:#6ee7b7">
+            <div class="proj-banner">
+              <span class="proj-mark">MB</span>
+              <svg class="proj-pattern" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+                <rect x="72" y="18" width="56" height="90" rx="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M88 46h24M88 62h24M88 78h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span class="proj-domain">Digital Banking</span>
+            </div>
+            <div class="proj-body">
+              <h3>Mobile Banking Platform</h3>
+              <dl class="proj-facts">
+                <div><dt>Challenge</dt><dd>Banks needed secure digital banking, wallet, transfer, bill payment and self-service workflows.</dd></div>
+                <div><dt>Responsibility</dt><dd>Built Java and Spring Boot services with Oracle integration, JWT auth, OTP validation and REST APIs.</dd></div>
+                <div><dt>Impact</dt><dd>Shipped to IndoChina Bank, BIC Bank, KokKok Pay and Azizi Bank in production.</dd></div>
+              </dl>
+              <div class="arch-tags"><span>Spring Security</span><span>JWT</span><span>Core banking</span></div>
+              <div class="chips"><span>Java</span><span>Spring Boot</span><span>Oracle</span><span>Redis</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" style="--p1:#f59e0b; --p2:#fcd34d">
+            <div class="proj-banner">
+              <span class="proj-mark">PG</span>
+              <svg class="proj-pattern" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+                <rect x="46" y="34" width="108" height="66" rx="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M46 56h108" stroke="currentColor" stroke-width="2"/>
+                <path d="M62 78h26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span class="proj-domain">Payments</span>
+            </div>
+            <div class="proj-body">
+              <h3>Payment Gateway &amp; Admin Portal</h3>
+              <dl class="proj-facts">
+                <div><dt>Challenge</dt><dd>Banks and merchants required secure processing, onboarding, monitoring and reporting.</dd></div>
+                <div><dt>Responsibility</dt><dd>Implemented payment workflows, bank integrations, admin modules and transaction reporting APIs.</dd></div>
+                <div><dt>Impact</dt><dd>Enabled merchant operations and real-time payment visibility for banking clients in Laos.</dd></div>
+              </dl>
+              <div class="arch-tags"><span>3rd-party integration</span><span>Reporting</span></div>
+              <div class="chips"><span>Java</span><span>Spring Boot</span><span>Oracle</span><span>Angular</span></div>
+            </div>
+          </article>
+
+          <article class="proj-card tilt" style="--p1:#8b5cf6; --p2:#c4b5fd">
+            <div class="proj-banner">
+              <span class="proj-mark">SG</span>
+              <svg class="proj-pattern" viewBox="0 0 200 120" fill="none" aria-hidden="true">
+                <circle cx="100" cy="60" r="30" stroke="currentColor" stroke-width="2"/>
+                <path d="M100 30V16M100 104V90M130 60h14M56 60h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span class="proj-domain">Enterprise SaaS</span>
+            </div>
+            <div class="proj-body">
+              <h3>Field Service Management</h3>
+              <dl class="proj-facts">
+                <div><dt>Challenge</dt><dd>Field teams needed reliable customer, equipment, scheduling, invoicing and reporting workflows.</dd></div>
+                <div><dt>Responsibility</dt><dd>Developed Spring Boot REST APIs and PostgreSQL-backed modules with Angular and Ionic clients.</dd></div>
+                <div><dt>Impact</dt><dd>Let service teams run distributed field operations from centralized backend services.</dd></div>
+              </dl>
+              <div class="arch-tags"><span>REST</span><span>Multi-channel</span></div>
+              <div class="chips"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Ionic</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Achievements ──────────────────────────────────────────────── -->
+    <section class="section section-light" id="achievements">
+      <div class="bg-layer bg-layer-light" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> Track Record</span>
+          <h2 class="section-title">Measured in production</h2>
+        </div>
+
+        <div class="metric-grid reveal-child">
+          <div class="metric-card"><span class="metric-emoji">🏆</span><span class="counter" data-count="8" data-suffix="+">0</span><small>Years Experience</small></div>
+          <div class="metric-card"><span class="metric-emoji">🏦</span><span class="counter" data-count="5" data-suffix="+">0</span><small>Banking Clients</small></div>
+          <div class="metric-card"><span class="metric-emoji">⚡</span><span class="counter" data-count="20" data-suffix="+">0</span><small>REST APIs Built</small></div>
+          <div class="metric-card"><span class="metric-emoji">🌏</span><span class="counter" data-count="3" data-suffix="">0</span><small>Regions Delivered</small></div>
+          <div class="metric-card"><span class="metric-emoji">💰</span><span class="counter" data-count="2" data-suffix="×">0</span><small>Best Performer Awards</small></div>
+        </div>
+
+        <ul class="award-list reveal">
+          <li>Designed and delivered a high-performance File Settlement &amp; Reconciliation platform processing millions of financial records.</li>
+          <li>Awarded twice as best performer at CashLink Global System for pioneering mobile banking and payment gateway delivery in Laos.</li>
+          <li>Delivered Java backend solutions for 5+ banking and enterprise clients across India, Southeast Asia, and the Middle East.</li>
+          <li>Built and maintained 20+ enterprise REST APIs across settlement, banking, payments, service management, and HR workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── Tech marquee ──────────────────────────────────────────────── -->
+    <section class="stack-strip" aria-label="Technology stack">
+      <div class="marquee">
+        <div class="marquee-track">
+          <span style="--c:#f89820">Java</span><span style="--c:#6db33f">Spring Boot</span>
+          <span style="--c:#4695eb">Quarkus</span><span style="--c:#336791">PostgreSQL</span>
+          <span style="--c:#2496ed">Docker</span><span style="--c:#326ce5">Kubernetes</span>
+          <span style="--c:#0078d4">Azure</span><span style="--c:#f05032">Git</span>
+          <span style="--c:#dd0031">Angular</span><span style="--c:#3880ff">Ionic</span>
+          <span style="--c:#dc382d">Redis</span><span style="--c:#d63aff">JWT</span>
+          <span style="--c:#3c4c9c">OAuth</span><span style="--c:#231f20">Kafka</span>
+          <span style="--c:#c72e49">MinIO</span>
+          <span style="--c:#f89820" aria-hidden="true">Java</span><span style="--c:#6db33f" aria-hidden="true">Spring Boot</span>
+          <span style="--c:#4695eb" aria-hidden="true">Quarkus</span><span style="--c:#336791" aria-hidden="true">PostgreSQL</span>
+          <span style="--c:#2496ed" aria-hidden="true">Docker</span><span style="--c:#326ce5" aria-hidden="true">Kubernetes</span>
+          <span style="--c:#0078d4" aria-hidden="true">Azure</span><span style="--c:#f05032" aria-hidden="true">Git</span>
+          <span style="--c:#dd0031" aria-hidden="true">Angular</span><span style="--c:#3880ff" aria-hidden="true">Ionic</span>
+          <span style="--c:#dc382d" aria-hidden="true">Redis</span><span style="--c:#d63aff" aria-hidden="true">JWT</span>
+          <span style="--c:#3c4c9c" aria-hidden="true">OAuth</span><span style="--c:#231f20" aria-hidden="true">Kafka</span>
+          <span style="--c:#c72e49" aria-hidden="true">MinIO</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Education ─────────────────────────────────────────────────── -->
+    <section class="section section-light" id="education">
+      <div class="bg-layer bg-layer-light" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label"><i></i> Education</span>
+          <h2 class="section-title">Academic background</h2>
+        </div>
+
+        <div class="edu-list reveal-child">
+          <article class="edu-row">
+            <span class="edu-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                <path d="M12 14v7"/>
+              </svg>
+            </span>
+            <div class="edu-main">
+              <h3>Master of Computer Applications (MCA)</h3>
+              <p>VelTech University, Chennai</p>
+            </div>
+            <span class="edu-year">2015</span>
+          </article>
+
+          <article class="edu-row">
+            <span class="edu-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                <path d="M12 14v7"/>
+              </svg>
+            </span>
+            <div class="edu-main">
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>Magadh University, Bodh Gaya</p>
+            </div>
+            <span class="edu-year">2012</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact ───────────────────────────────────────────────────── -->
+    <section class="section section-dark contact" id="contact">
+      <div class="bg-layer bg-layer-dark" aria-hidden="true">
+        <div class="mesh mesh-6"></div>
+        <div class="mesh mesh-7"></div>
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container">
+        <div class="contact-glass reveal">
+          <div class="section-head">
+            <span class="section-label"><i></i> Contact</span>
+            <h2 class="section-title">Let's build something that has to work</h2>
+            <p class="section-sub">Open to senior backend and technical lead roles, and to consulting on settlement, payments and distributed systems.</p>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:hellosuryakant@gmail.com" class="cta cta-primary magnetic">
+              <span>Say hello</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>
+              </svg>
+            </a>
+            <button type="button" class="cta cta-ghost magnetic resume-open-btn"><span>View résumé</span></button>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:hellosuryakant@gmail.com" class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉️</span>
+              <span>hellosuryakant@gmail.com</span>
+            </a>
+            <a href="tel:+918083705398" class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              <span>+91 80837 05398</span>
+            </a>
+            <span class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <span>Chennai, India</span>
+            </span>
+            <a href="https://suryakantarora.com" class="contact-item" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">🌐</span>
+              <span>suryakantarora.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/suryakantarora" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">
+              <span class="contact-icon" aria-hidden="true">in</span>
+              <span>/suryakantarora</span>
+            </a>
+            <a href="https://github.com/suryakantarora" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">
+              <span class="contact-icon" aria-hidden="true">GH</span>
+              <span>/suryakantarora</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-divider" aria-hidden="true"></div>
+      <div class="footer-inner">
+        <a href="#surya" class="footer-brand">Surya<span>.</span></a>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 Surya Kant Kumar</p>
+      </div>
+    </div>
   </footer>
+
+  <button type="button" class="to-top" id="toTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m18 15-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- Resume Modal  -->
+  <div class="resume-modal" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle" hidden>
+    <div class="resume-modal-backdrop" id="resumeModalBackdrop"></div>
+    <div class="resume-modal-panel">
+      <div class="resume-modal-toolbar">
+        <h2 id="resumeModalTitle">Printable Resume</h2>
+        <div class="resume-modal-actions">
+          <button type="button" class="btn btn-primary btn-icon" id="resumePrintBtn" title="Print resume" aria-label="Print resume">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 9V2h12v7"/>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+              <rect x="6" y="14" width="12" height="8" rx="1"/>
+            </svg>
+          </button>
+          <button type="button" class="btn btn-outline btn-icon" id="resumeDownloadBtn"
+                  title="Download PDF" aria-label="Download resume as PDF">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <path d="M7 10l5 5 5-5"/>
+              <path d="M12 15V3"/>
+            </svg>
+          </button>
+          <button type="button" class="btn btn-outline btn-icon" id="resumeCloseBtn" title="Close" aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18"/>
+              <path d="m6 6 12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="resume-modal-body">
+        <article class="resume-printable" id="resumePrintable">
+          <header class="resume-header">
+            <div class="resume-header-text">
+              <h1 class="resume-name">Surya Kant Kumar</h1>
+              <p class="resume-headline">Java Technical Lead | Senior Backend Engineer</p>
+              <p class="resume-contact">
+                +91 80837 05398 &nbsp;|&nbsp; hellosuryakant@gmail.com &nbsp;|&nbsp; Chennai, India
+              </p>
+            </div>
+            <img class="resume-photo" src="photo.jpg" alt="Portrait of Surya Kant Kumar"
+                 width="398" height="512" loading="lazy" decoding="async">
+          </header>
+
+          <section class="resume-block">
+            <h2>Profile Summary</h2>
+            <p class="resume-summary">
+              Java Technical Lead and Senior Backend Engineer with 8+ years of experience designing,
+              developing, and delivering scalable enterprise applications using Java, Spring Boot, Quarkus,
+              REST APIs, and microservices architecture. Strong banking and fintech experience across file
+              settlement, reconciliation, mobile banking, payment gateway, and field service platforms.
+              Proven ability to architect backend services, process millions of financial records, deliver
+              20+ enterprise APIs, automate CI/CD pipelines, review production code, and mentor engineers
+              while remaining hands-on with Java implementation. Delivered solutions for 5+ banking and
+              enterprise clients with strong ownership of requirement analysis, technical design, stakeholder
+              communication, release planning, performance optimization, and production support.
+            </p>
+          </section>
+
+          <section class="resume-block">
+            <h2>Technical Skills</h2>
+            <p><strong>Backend:</strong> Java, Spring Boot, Quarkus, JPA, Hibernate</p>
+            <p><strong>Architecture:</strong> Microservices, REST APIs, Distributed Systems, Event-Driven Workflows</p>
+            <p><strong>Cloud:</strong> Azure, Azure Kubernetes Service (AKS), CI/CD Pipelines</p>
+            <p><strong>Database:</strong> PostgreSQL, Oracle, Redis, SQL, Query Optimization</p>
+            <p><strong>DevOps:</strong> Azure DevOps, Git, Docker, Kubernetes, Apache Tomcat</p>
+            <p><strong>Storage:</strong> MinIO, Amazon S3, Financial File Processing</p>
+            <p><strong>Frontend Exposure:</strong> Angular, Ionic, Capacitor</p>
+            <p><strong>Tools:</strong> IntelliJ IDEA, STS, VS Code, Postman, Redmine</p>
+          </section>
+
+          <section class="resume-block">
+            <h2>Professional Experience</h2>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Technical Lead — Wipro Technologies, Chennai</h3>
+                <span>Oct 2024 — Present</span>
+              </div>
+              <p><strong>Client:</strong> Standard Chartered Bank</p>
+              <ul>
+                <li>Leading Java backend development for a high-performance File Settlement &amp; Reconciliation platform.</li>
+                <li>Architected scalable Quarkus and Spring Boot microservices for ingestion, validation, reconciliation, and settlement workflows.</li>
+                <li>Implemented multithreaded processing for millions of financial records and high-volume files.</li>
+                <li>Integrated PostgreSQL, Amazon S3, and MinIO for secure storage and financial file processing.</li>
+                <li>Led design discussions, performed code reviews, mentored engineers, and drove release planning across cross-functional teams.</li>
+                <li>Automated CI/CD pipelines using Azure DevOps and supported Azure Kubernetes Service (AKS) deployment readiness.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Sr. Software Engineer - Key Application, Bangalore</h3>
+                <span>Sep 2023 - Sep 2024</span>
+              </div>
+              <ul>
+                <li>Developed Java and Spring Boot REST APIs for Service Geeni Field Service Management platform.</li>
+                <li>Built backend modules for customer management, job scheduling, invoicing, equipment tracking, and reporting.</li>
+                <li>Integrated PostgreSQL-backed services with supporting Angular and Ionic application layers.</li>
+                <li>Technologies: Java, Spring Boot, REST APIs, PostgreSQL, Angular, Ionic, Azure</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Product Lead - CashLink Global System, Chennai</h3>
+                <span>Apr 2018 - Aug 2023</span>
+              </div>
+              <p><strong>Clients:</strong> IndoChina Bank, BIC Bank Laos, KokKok Pay, Azizi Bank Afghanistan</p>
+              <ul>
+                <li>Led Java backend and product delivery for mobile banking, wallet, and payment gateway platforms across Southeast Asia and the Middle East.</li>
+                <li>Designed Spring Boot services for balance inquiry, fund transfer, bill payment, wallet, merchant, and admin workflows.</li>
+                <li>Implemented OTP validation, transaction processing, bank integrations, and reporting modules.</li>
+                <li>Delivered solutions for 4+ banking clients with onsite deployments and UAT support in Vientiane, Laos over a 3-year period.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="resume-block">
+            <h2>Key Projects</h2>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>File Settlement &amp; Reconciliation Platform</h3>
+                <span>Technical Lead</span>
+              </div>
+              <p>Java, Quarkus, PostgreSQL, Azure, S3 Bucket, MinIO</p>
+              <ul>
+                <li>Automated ingestion, validation, processing, and reconciliation of financial files.</li>
+                <li>Implemented multithreaded parallel processing for millions of financial records.</li>
+                <li>Designed a fault-tolerant settlement platform capable of handling concurrent financial file processing with high reliability.</li>
+                <li>Built event-driven workflows, reconciliation engines, and fault-tolerant recovery mechanisms.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Distributed Job Scheduler</h3>
+                <span>Technical Lead</span>
+              </div>
+              <p>Java, Quarkus, Cron, Retry Mechanism, Audit Logs, Reconciliation Workflows</p>
+              <ul>
+                <li>
+                  Built a Quarkus scheduler application to trigger cron-based settlement jobs for:
+                  <ul>
+                    <li><strong>File Extraction</strong></li>
+                    <li><strong>Recon Processing</strong></li>
+                    <li><strong>Zip Processing</strong></li>
+                    <li><strong>Voucher Processing</strong></li>
+                  </ul>
+                </li>
+                <li>Implemented a retry mechanism with up to 3 attempts to improve resilience for transient job failures.</li>
+                <li>Captured failed job executions with clear failure reasons, status tracking, and recovery-ready metadata.</li>
+                <li>Added detailed audit logs for scheduler start time, completion time, retry count, execution status, and exception details.</li>
+                <li>Automated daily reconciliation processing while improving observability and operational support for production issues.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Cryptography as a Service (CaaS)</h3>
+                <span>Technical Lead</span>
+              </div>
+              <p>Java, Quarkus, Cryptography</p>
+              <ul>
+                <li>Implemented Cryptography-as-a-Service within the File Settlement Application.</li>
+                <li>Provided secure encryption and cryptographic operations for financial file processing and settlement workflows.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Service Geeni — Field Service Management</h3>
+                <span>Backend Engineer</span>
+              </div>
+              <p>Java, Spring Boot, Angular, Ionic, Capacitor, PostgreSQL, Azure</p>
+              <ul>
+                <li>Built Java backend modules for customer management, job scheduling, invoicing, equipment tracking, and reporting.</li>
+                <li>Delivered REST APIs consumed by web and mobile channels for field service operations.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Mobile Banking Platform</h3>
+                <span>Backend Engineer</span>
+              </div>
+              <p>Java, Spring Boot, Spring Security, JWT, Oracle, Redis</p>
+              <ul>
+                <li>Delivered secure Java backend services for balance inquiry, fund transfer, bill payments, wallet transactions, and customer self-service workflows.</li>
+                <li>Implemented JWT-based authentication and token validation for protected digital banking APIs.</li>
+                <li>Configured Spring Security for role-based access control, endpoint protection, authentication filters, and secure request handling.</li>
+                <li>Built OTP validation flows and integrated core banking services for account, transaction, and payment operations.</li>
+                <li>Used Oracle and Redis-backed backend workflows to support reliable transaction processing and fast session/token lookup.</li>
+              </ul>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>Payment Gateway &amp; Admin Portal</h3>
+                <span>Backend Engineer</span>
+              </div>
+              <p>Java, Spring Boot, Angular, Oracle</p>
+              <ul>
+                <li>Developed Java payment services with admin portal support for merchant onboarding and transaction monitoring.</li>
+                <li>Integrated payment workflows with third-party processors and banks for card and net banking transactions.</li>
+              </ul>
+            </div>
+
+          </section>
+
+          <section class="resume-block">
+            <h2>Achievements</h2>
+            <ul>
+              <li>Designed and delivered a high-performance File Settlement &amp; Reconciliation Platform processing millions of financial records.</li>
+              <li>Awarded twice as best performer at CashLink Global System for pioneering mobile banking solutions and payment gateway implementation in Laos.</li>
+              <li>Delivered Java backend solutions for 5+ banking and enterprise clients across India, Southeast Asia, and the Middle East.</li>
+              <li>Built and maintained 20+ enterprise REST APIs across settlement, banking, payments, service management, and HR workflows.</li>
+            </ul>
+          </section>
+
+          <section class="resume-block">
+            <h2>Education</h2>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>MCA — VelTech University, Chennai</h3>
+                <span>2015</span>
+              </div>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>BCA — Magadh University, Bodh Gaya</h3>
+                <span>2012</span>
+              </div>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <h3>12th — BSEB Patna</h3>
+                <span>2009</span>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <script src="profile.js?v=2026.07.16.6" defer></script>
 </body>
 </html>
